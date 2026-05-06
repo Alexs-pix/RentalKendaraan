@@ -10,6 +10,8 @@
 
 while (true)
 {
+    Console.Clear();
+
     Console.WriteLine("-----Rental Kendaraan-----");
     Console.WriteLine("\nDaftar Kendaraan");
 
@@ -84,6 +86,9 @@ while (true)
     {
         Console.WriteLine("\nPilihan Invalid");
     }
+
+    Console.WriteLine("\nTekan ENTER untuk mengulang");
+    Console.ReadLine() ;
 }
     class Kendaraan
 {
